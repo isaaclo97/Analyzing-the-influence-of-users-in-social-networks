@@ -29,8 +29,6 @@ java -jar Surrogate-GRASP-SNIMP.jar
 If you want new instances just replace folder instances.
 Solution folder contains an excel with the results.
 
-Remember, the objective function is a probabilistic algorithm (MonteCarlo), the results could vary a little.
-
 ## Cite
 
 Please cite our paper if you use it in your own work:
