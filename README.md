@@ -1,10 +1,16 @@
+![visitor badge](https://vbr.wocr.tk/badge?page_id=isaaclo97.Analyzing-the-influence-of-users-in-social-networks&color=be54c6&style=flat&logo=Github)
+![Manintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![GitHub last commit (master)](https://img.shields.io/github/last-commit/isaaclo97/Analyzing-the-influence-of-users-in-social-networks)
+![Starts](https://img.shields.io/github/stars/isaaclo97/Analyzing-the-influence-of-users-in-social-networks.svg)
+
 # A quick GRASP-based method for influence maximization in social networks.
 
 The evolution and spread of social networks have attracted the interest of the scientific community in the last few years. Specifically, several new interesting problems, which are hard to solve, have arisen in the context of viral marketing, disease analysis, and influence analysis, among others. Companies and researchers try to find the elements that maximize profit, stop pandemics, etc. This family of problems is collected under the term Social Network Influence Maximization problem (SNIMP), whose goal is to find the most influential users (commonly known as seeds) in a social network, simulating an influence diffusion model. SNIMP is known to be an NP-hard problem and, therefore, an exact algorithm is not suitable for solving it optimally in reasonable computing time. The main drawback of this optimization problem lies on the computational effort required to evaluate a solution. Since each node is infected with a certain probability, the objective function value must be calculated through a Monte Carlo simulation, resulting in a computationally complex process. The current proposal tries to overcome this limitation by considering a metaheuristic algorithm based on the Greedy Randomized Adaptive Search Procedure (GRASP) framework to design a quick solution procedure for the SNIMP. Our method consists of two distinct stages: construction and local search. The former is based on static features of the network, which notably increases its efficiency since it does not require to perform any simulation during construction. The latter involves a local search based on an intelligent neighborhood exploration strategy to find the most influential users based on swap moves, also aiming for an efficient processing. Experiments performed on 7 well-known social network datasets with 5 different seed set sizes confirm that the proposed algorithm is able to provide competitive results in terms of quality and computing time when comparing it with the best algorithms found in the state of the art.
 
-Paper link: [https://doi.org/10.1007/s12652-021-03510-4](https://doi.org/10.1007/s12652-021-03510-4)
-Impact Factor: 7.104 
-Quartil: Q1 - 21/139
+* Paper link: [https://doi.org/10.1007/s12652-021-03510-4](https://doi.org/10.1007/s12652-021-03510-4)
+* Impact Factor: 3.662 
+* Quartil: Q2 - 68/145 - Computer Science, Artificial Intelligence | Q2 - 73/164 - Computer Science, Information Systems | 2021  <br>
+* Journal of Ambient Intelligence and Humanized Computing
 
 ## Datasets
 
